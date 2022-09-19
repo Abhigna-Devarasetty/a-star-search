@@ -58,15 +58,6 @@ def search(house_map):
                 y2 =  curr_move[1] - p[1]
                 
                 #storing the moves based on parent and child position
-                if x2 == 1 and y2 == 0:
-                    path+="D"
-                elif x2 == -1 and y2 == 0:
-                    path+="U"
-                elif x2 == 0 and y2 == -1:
-                    path+="L"
-                elif x2 == 0 and y2 == 1 :
-                    path+="R"
-                
                 if y2 == 0:
                         if x2 == 1:
                                 path+="D"

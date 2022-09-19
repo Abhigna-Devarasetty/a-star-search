@@ -1,5 +1,5 @@
 #importing student's scripts
-import route_pichus
+import route_pichu
 import arrange_pichus
 from itertools import groupby
 import pandas as pd
@@ -117,7 +117,7 @@ def seekthehidden(mapX,p_locs):
 def check_solution1(mapX,dist_key):
 	regex_moves=re.compile(r'^[UDRLudrl]+$')
 	#function to search
-	dist,moves=route_pichus.search(mapX)
+	dist,moves=route_pichu.search(mapX)
 	assert type(dist)==int,"Distance is not an integer"
 	assert dist==dist_key,"Wrong solution"
 	if dist>-1:

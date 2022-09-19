@@ -1,9 +1,10 @@
 
 #!/usr/local/bin/python3
 #
-# route_pichu.py : a maze solver
 #
-# Based on skeleton code provided in CSCI B551, Fall 2021.
+# Submitted by : Venkata Sai Abhigna Devarasetty (vdevarase@iu.edu)
+#
+# Based on skeleton code in CSCI B551, Fall 2022.
 
 import sys
 # Parse the map from a given filename

@@ -1,5 +1,3 @@
-# vdevaras-a0
-
 ## Part 1:
 
 ### Function: parse_map 
